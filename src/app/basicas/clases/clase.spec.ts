@@ -45,4 +45,11 @@ describe('Pruebas de clase Jugador', () => {
         expect( resp ).toBe(50);
     });
 
+    it('Debe retornar 0 de HP si recibe 100 de daño o mas', () => {
+        
+        const resp = jugador.recibeDanio(200);
+
+        expect( resp ).toBe(0);
+    });
+
 });
