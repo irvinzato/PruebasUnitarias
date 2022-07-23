@@ -2,7 +2,7 @@
 //describe('Pruebas de Strings');
 //it -Sirve para decir que es una prueba en especifico
 //it('Debe de regresar un String');
-import { mensaje } from "./string";
+import { mensaje } from './string';
 
 describe( 'Pruebas de Strings', () =>  {
     //Primer prueba
