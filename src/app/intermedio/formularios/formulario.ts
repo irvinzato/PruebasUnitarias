@@ -8,7 +8,7 @@ export class FormularioRegister {
     constructor( fb: FormBuilder ) {
         this.form = fb.group({
             email: [ '', [Validators.required, Validators.email] ],
-            password: [ '', [Validators.required] ]
+            password: [ '', [Validators.required, Validators.minLength(5)] ]
         });
     }
 
